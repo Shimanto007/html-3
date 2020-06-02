@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>HTML Class 3</title>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<style>
+		
+		.internal{color:green;}
+
+	</style>
+</head>
+<body>
+	<!-- Title start -->
+	<h1 style="text-align: center">HTML Class 3</h1>
+	<!-- Title end -->
+
+	<!-- CDN part start -->
+	<h1 style="text-align: center">Image Using CDN (Content Delivery Network)</h1>
+	<h2 >CODE</h2>
+<xmp>
+<img src="https://images.pexels.com/photos/1591061/pexels-photo-1591061.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" width="400px" alt="html image">
+</xmp>
+	<img src="https://images.pexels.com/photos/1591061/pexels-photo-1591061.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" width="400px" alt="html image">
+
+	<h1 style="text-align: center">Image withou CDN (Direct Upload)</h1>
+	<h2 >CODE</h2>
+<xmp>
+<img src="images/four-letter-tiles-1591061.jpg" width="400px" alt="html image">
+</xmp>
+	<img src="images/four-letter-tiles-1591061.jpg" width="400px" alt="html image">
+
+	<!-- CDN part end -->
+
+
+	<!-- Boolean Attribute part start -->
+	<h1 style="text-align: center">Boolean attribute</h1>
+<xmp>
+<button type="submit" disabled>button disable</button>
+Here disable is a boolean attribute and it is tru because it is present in the element, That is why the button is not working
+</xmp>	
+	<button type="submit" disabled>button disable</button>
+
+<xmp>
+<input type="name" />
+Here disable boolean is not present that is why it is false and input tag is working
+</xmp>
+
+<input type="name" />
+
+	<!-- Boolean Attribute part end -->
+
+
+	<!-- Link Through Anchor tag part part start -->
+
+	<h1 style="text-align: center">Link through Anchor Tag <xmp>(<a></a>)</xmp></h1>
+
+	<h2>External Link</h2>
+<xmp>
+<a href="https://mannanarefinsharif.com">Mannan's Profile</a>
+</xmp>
+<a href="https://mannanarefinsharif.com">Mannan's Profile</a>
+
+	<h2>Internal Link</h2>
+<xmp>
+<a href="asset/contact.html">Contact Page</a>
+</xmp>
+<a href="asset/contact.html">Contact Page</a>
+	<!-- Link Through Anchor tag part part end -->
+
+
+	<!-- CSS part start -->
+
+<h1 style="text-align: center">CSS (Cascading Style Sheet)</h1>
+<h2>There are three ways to use css in html. Those are</h2>
+<h3>1. Inline CSS</h3>
+<h3>Code</h3>
+<xmp>
+<h4 style="color:red">This is Inline css</h4>
+</xmp>
+<h3>Result</h3>
+	<h4 style="color:red">This is Inline css</h4>
+
+<h3>1. Internal CSS</h3>
+<h3>Code</h3>
+<xmp><style>
+	.internal{color:green;}
+</style>
+<body>
+<h4 class="internal">This is Internal css</h4>
+</body>
+</xmp>	
+<h3>Result</h3>
+<h4 class="internal">This is Internal css</h4>
+
+<h3>1. External CSS</h3>
+<h3>Code</h3>
+<xmp>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<body>
+<h4 class="external">This is external css</h4>
+</body>
+</xmp>
+<h3>Result</h3>
+<h4 class="external">This is external css</h4>
+
+	<!-- CSS part end -->
+</body>
+</html>
